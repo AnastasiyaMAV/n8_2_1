@@ -1,0 +1,219 @@
+@media screen and (min-width: 600px) {
+    .container {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20% 1fr 20%;
+        grid-template-areas:
+            "header_grid header_grid"
+            "content_grid  content_grid"
+            "footer_grid  footer_grid";
+    }
+
+    .header_grid {
+        display: grid;
+        grid-area: header_grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: start;
+    }
+
+    .button_style {
+        border-radius: 25px;
+        font-family: 'Intro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2vw;
+        background-color: #5222D0;
+    }
+
+    .font_display {
+        font-family: 'Intro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 6vw;
+    }
+
+    .font_lead {
+        font-family: 'Roboto Slad';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2vw;
+    }
+
+    .img_ico_style {
+        width: 18%;
+        max-width: 20%;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 2px;
+        padding-bottom: 7px;
+    }
+
+    .content_grid {
+        display: grid;
+        grid-area: content_grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content_helmet {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    .footer_grid {
+        display: grid;
+        grid-area: footer_grid;
+        grid-template-columns: 1fr;
+        font-family: 'Roboto Slad';
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .container {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20% 1fr 20%;
+        grid-template-areas:
+            "header_grid header_grid"
+            "content_grid  content_grid"
+            "footer_grid  footer_grid";
+    }
+
+    .header_grid {
+        display: grid;
+        grid-area: header_grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: start;
+    }
+
+    .button_style {
+        border-radius: 25px;
+        font-family: 'Intro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2vw;
+        background-color: #5222D0;
+    }
+
+    .font_display {
+        font-family: 'Intro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 6vw;
+    }
+
+    .font_lead {
+        font-family: 'Roboto Slad';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2vw;
+    }
+
+    .img_ico_style {
+        width: 18%;
+        max-width: 20%;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 2px;
+        padding-bottom: 7px;
+    }
+
+    .content_grid {
+        display: grid;
+        grid-area: content_grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content_helmet {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    .footer_grid {
+        display: grid;
+        grid-area: footer_grid;
+        grid-template-columns: 1fr;
+        font-family: 'Roboto Slad';
+        font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+    .container {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20% 1fr 20%;
+        grid-template-areas:
+            "header_grid header_grid"
+            "content_grid  content_grid"
+            "footer_grid  footer_grid";
+    }
+
+    .header_grid {
+        display: grid;
+        grid-area: header_grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: start;
+    }
+
+    .button_style {
+        border-radius: 25px;
+        font-family: 'Intro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2vw;
+        background-color: #5222D0;
+    }
+
+    .font_display {
+        font-family: 'Intro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+
+    .font_lead {
+        font-family: 'Roboto Slad';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 5vw;
+    }
+
+    .img_ico_style {
+        width: 25%;
+        max-width: 30%;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 2px;
+        padding-bottom: 7px;
+    }
+
+    .content_grid {
+        display: grid;
+        grid-area: content_grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .content_helmet {
+        width: 90%;
+        max-width: 80%;
+    }
+
+    .footer_grid {
+        display: grid;
+        grid-area: footer_grid;
+        font-family: 'Roboto Slad';
+        font-size: 5vw;
+    }
+}
