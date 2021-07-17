@@ -21,22 +21,23 @@
 
     .button_style {
         border-radius: 25px;
-        font-family: 'Intro';
+        font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
-        font-size: 1.2vw;
+        font-size: 1vw;
         background-color: #5222D0;
     }
 
     .font_display {
-        font-family: 'Intro';
+        font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
-        font-size: 6vw;
+        font-size: 5vw;
+        color: black;
     }
 
     .font_lead {
-        font-family: 'Roboto Slad';
+        font-family: 'Roboto Slab', serif;
         font-style: normal;
         font-weight: normal;
         font-size: 2vw;
@@ -66,7 +67,7 @@
         display: grid;
         grid-area: footer_grid;
         grid-template-columns: 1fr;
-        font-family: 'Roboto Slad';
+        font-family: 'Roboto Slab', serif;
         font-size: 2vw;
     }
 }
@@ -94,7 +95,7 @@
 
     .button_style {
         border-radius: 25px;
-        font-family: 'Intro';
+        font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
         font-size: 1.2vw;
@@ -102,14 +103,14 @@
     }
 
     .font_display {
-        font-family: 'Intro';
+        font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
         font-size: 6vw;
     }
 
     .font_lead {
-        font-family: 'Roboto Slad';
+        font-family: 'Roboto Slab', serif;
         font-style: normal;
         font-weight: normal;
         font-size: 2vw;
@@ -139,7 +140,7 @@
         display: grid;
         grid-area: footer_grid;
         grid-template-columns: 1fr;
-        font-family: 'Roboto Slad';
+        font-family: 'Roboto Slab', serif;
         font-size: 5vw;
     }
 }
@@ -167,7 +168,7 @@
 
     .button_style {
         border-radius: 25px;
-        font-family: 'Intro';
+        font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
         font-size: 2vw;
@@ -175,14 +176,14 @@
     }
 
     .font_display {
-        font-family: 'Intro';
+        font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
         font-size: 5vw;
     }
 
     .font_lead {
-        font-family: 'Roboto Slad';
+        font-family: 'Roboto Slab', serif;
         font-style: normal;
         font-weight: normal;
         font-size: 5vw;
@@ -213,7 +214,8 @@
     .footer_grid {
         display: grid;
         grid-area: footer_grid;
-        font-family: 'Roboto Slad';
+        grid-template-columns: 1fr;
+        font-family: 'Roboto Slab', serif;
         font-size: 5vw;
     }
 }

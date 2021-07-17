@@ -22,25 +22,11 @@
 
     .button_style {
         border-radius: 25px;
-        font-family: 'Intro';
+        font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
-        font-size: 1.2vw;
+        font-size: 1vw;
         background-color: #5222D0;
-    }
-
-    .font_display {
-        font-family: 'Intro';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 6vw;
-    }
-
-    .font_lead {
-        font-family: 'Roboto Slad';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2vw;
     }
 
     .img_ico_style {
@@ -56,19 +42,13 @@
         display: grid;
         grid-area: content_grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
-    .content_helmet {
-        width: 90%;
-        max-width: 90%;
     }
 
     .footer_grid {
         display: grid;
         grid-area: footer_grid;
         grid-template-columns: 1fr;
-        font-family: 'Roboto Slad';
+        font-family: 'Roboto Slab', serif;
         font-size: 2vw;
     }
 }
@@ -96,25 +76,11 @@
 
     .button_style {
         border-radius: 25px;
-        font-family: 'Intro';
+        font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
         font-size: 1.2vw;
         background-color: #5222D0;
-    }
-
-    .font_display {
-        font-family: 'Intro';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 6vw;
-    }
-
-    .font_lead {
-        font-family: 'Roboto Slad';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2vw;
     }
 
     .img_ico_style {
@@ -129,19 +95,14 @@
     .content_grid {
         display: grid;
         grid-area: content_grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .content_helmet {
-        width: 90%;
-        max-width: 90%;
+        grid-template-columns: 1fr;
     }
 
     .footer_grid {
         display: grid;
         grid-area: footer_grid;
         grid-template-columns: 1fr;
-        font-family: 'Roboto Slad';
+        font-family: 'Roboto Slab', serif;
         font-size: 5vw;
     }
 }
@@ -168,26 +129,12 @@
     }
 
     .button_style {
-        border-radius: 25px;
-        font-family: 'Intro';
+        border-radius: 50px;
+        font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
         font-size: 2vw;
         background-color: #5222D0;
-    }
-
-    .font_display {
-        font-family: 'Intro';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 5vw;
-    }
-
-    .font_lead {
-        font-family: 'Roboto Slad';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 5vw;
     }
 
     .img_ico_style {
@@ -203,19 +150,13 @@
         display: grid;
         grid-area: content_grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
         justify-items: center;
-    }
-
-    .content_helmet {
-        width: 90%;
-        max-width: 80%;
     }
 
     .footer_grid {
         display: grid;
         grid-area: footer_grid;
-        font-family: 'Roboto Slad';
+        font-family: 'Roboto Slab', serif;
         font-size: 5vw;
     }
 }
