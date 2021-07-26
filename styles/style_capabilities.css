@@ -1,10 +1,10 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1024px) {
     .container_grid {
         display: grid;
         width: 100%;
         height: 100vh;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 20% 1fr 20%;
+        grid-template-rows: 30% 2fr 20%;
         grid-template-areas:
             "header_grid header_grid"
             "content_grid content_grid"
@@ -14,10 +14,11 @@
     .header_grid {
         display: grid;
         grid-area: header_grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
         justify-items: start;
+        margin-left: 5vw;
     }
 
     .button_style {
@@ -27,6 +28,7 @@
         font-weight: bold;
         font-size: 1vw;
         background-color: #5222D0;
+        margin-right: 5vw;
     }
 
     .img_ico_style {
@@ -42,6 +44,28 @@
         display: grid;
         grid-area: content_grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 0.5fr;
+    }
+
+    .jumbotron_style {
+        font-family: 'Comfortaa', cursive;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2vw;
+    }
+
+    .jumbotron_style_paragraph {
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.8vw;
+    }
+
+    .label_style {
+        font-size: 3vw;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: bold;
     }
 
     .footer_grid {
@@ -53,25 +77,27 @@
     }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (min-width: 769px) and (max-width: 1023px) {
     .container_grid {
         display: grid;
         width: 100%;
         height: 100vh;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 20% 1fr 20%;
+        grid-template-rows: 50% 1fr 20%;
         grid-template-areas:
             "header_grid header_grid"
-            "content_grid  content_grid"
-            "footer_grid  footer_grid";
+            "content_grid content_grid"
+            "footer_grid footer_grid";
     }
 
     .header_grid {
         display: grid;
         grid-area: header_grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 0.5fr;
         align-items: center;
         justify-items: start;
+        margin-left: 5vw;
     }
 
     .button_style {
@@ -79,8 +105,89 @@
         font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
-        font-size: 1.2vw;
+        font-size: 2vw;
         background-color: #5222D0;
+        margin-right: 5vw;
+    }
+
+    .img_ico_style {
+        width: 18%;
+        max-width: 20%;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 2px;
+        padding-bottom: 7px;
+    }
+
+    .content_grid {
+        display: grid;
+        grid-area: content_grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .jumbotron_style {
+        font-family: 'Comfortaa', cursive;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3vw;
+    }
+
+    .jumbotron_style_paragraph {
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+    }
+
+    .label_style {
+        font-size: 3vw;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .footer_grid {
+        display: grid;
+        grid-area: footer_grid;
+        grid-template-columns: 1fr;
+        font-family: 'Roboto Slab', serif;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
+    .container_grid {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30% 1fr 20%;
+        grid-template-areas:
+            "header_grid header_grid"
+            "content_grid content_grid"
+            "footer_grid footer_grid";
+    }
+
+    .header_grid {
+        display: grid;
+        grid-area: header_grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: start;
+        margin-left: 5vw;
+    }
+
+    .button_style {
+        border-radius: 25px;
+        font-family: 'Comfortaa', cursive;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2vw;
+        background-color: #5222D0;
+        margin-right: 5vw;
     }
 
     .img_ico_style {
@@ -96,6 +203,29 @@
         display: grid;
         grid-area: content_grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 0.2fr 0.2fr 0.5fr;
+    }
+
+
+    .jumbotron_style {
+        font-family: 'Comfortaa', cursive;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+
+    .jumbotron_style_paragraph {
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 5vw;
+    }
+
+    .label_style {
+        font-size: 5vw;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: bold;
     }
 
     .footer_grid {
@@ -107,39 +237,42 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 599px) {
+@media screen and (max-width: 360px) {
     .container_grid {
         display: grid;
         width: 100%;
         height: 100vh;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 20% 1fr 20%;
+        grid-template-rows: 30% 1fr 20%;
         grid-template-areas:
             "header_grid header_grid"
-            "content_grid  content_grid"
-            "footer_grid  footer_grid";
+            "content_grid content_grid"
+            "footer_grid footer_grid";
     }
 
     .header_grid {
         display: grid;
         grid-area: header_grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
         justify-items: start;
+        margin-left: 5vw;
     }
 
     .button_style {
-        border-radius: 50px;
+        border-radius: 25px;
         font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
         font-size: 2vw;
         background-color: #5222D0;
+        margin-right: 5vw;
     }
 
     .img_ico_style {
-        width: 25%;
-        max-width: 30%;
+        width: 18%;
+        max-width: 20%;
         padding-left: 2px;
         padding-right: 2px;
         padding-top: 2px;
@@ -150,46 +283,48 @@
         display: grid;
         grid-area: content_grid;
         grid-template-columns: 1fr;
-        justify-items: center;
+        grid-template-rows: 1fr 1fr 1fr 0.2fr 0.2fr 0.5fr;
+    }
+
+    .jumbotron_style {
+        font-family: 'Comfortaa', cursive;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+
+    .jumbotron_style_paragraph {
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 5vw;
+    }
+
+    .label_style {
+        font-size: 5vw;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: bold;
     }
 
     .footer_grid {
         display: grid;
         grid-area: footer_grid;
+        grid-template-columns: 1fr;
         font-family: 'Roboto Slab', serif;
         font-size: 5vw;
     }
 }
 
-.jumbotron_style {
-    font-family: 'Comfortaa', cursive;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2vw;
-}
 
 .jumbotron_style_news {
     background-color: #EC615B;
     font-family: 'Comfortaa', cursive;
 }
 
-.jumbotron_style_paragraph {
-    font-family: 'Roboto Slab', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.8vw;
-}
-
 .capabilities_font {
     font-family: 'Comfortaa', cursive;
     font-size: 5vw;
-    font-style: normal;
-    font-weight: bold;
-}
-
-.label_style {
-    font-size: 3vw;
-    color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
 }
